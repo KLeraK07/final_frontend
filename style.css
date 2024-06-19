@@ -32,7 +32,8 @@ main{
     gap: 0.5em;
 }
 
-.my_scills{
+
+.my_scills, .my_progect{
     width: 70vw;
     height: auto;
     margin: 2em auto;
@@ -100,17 +101,37 @@ h2{
     gap:2em;
 }
 
-.one_scill{
+.one_project{
+    max-width: 12em;
+}
+
+.one_scill, .one_project{
     padding:0;
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center; 
     gap:0.5em;
     text-align: center;
 }
+.projects{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+}
 
+
+
+.proga{
+    width: 12em;
+    height: 12em;
+    border-radius: 0.5em;
+}
 
 .img_scill{
     width:9vw;

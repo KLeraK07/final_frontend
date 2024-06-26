@@ -32,6 +32,20 @@ main{
     gap: 0.5em;
 }
 
+.kont{
+    width: 70vw;
+    height: auto;
+    margin: 2em auto;
+    padding: 5em;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+}
+
 
 .my_scills, .my_progect{
     width: 70vw;
@@ -87,6 +101,13 @@ li > a {
     
 }
 
+li :hover {
+    text-decoration: underline;
+    text-decoration-color: #38711A;
+}
+
+
+
 h2{
     text-decoration-line: underline;
 }
@@ -96,7 +117,7 @@ h2{
     width:100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap:2em;
 }
@@ -121,7 +142,7 @@ h2{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap:2em;
 }
 
@@ -138,6 +159,50 @@ h2{
     height: 27vh;
     object-fit: cover;
 }
+
+.logo{
+    margin: 0%;
+    padding: 0%;
+    width: 2em;
+    height: 2%;
+}
+
+.button_github{
+    background-color: #788A07;
+    width: 13%;
+    border-radius: 0.5em;
+    margin: 0% auto;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.button_kontact{
+    background-color: #788A07;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.button_kontact:hover{
+    transform: scale(1.2);
+}
+
+.button_github:hover{
+    transform: scale(1.2);
+}
+
 
 
 
